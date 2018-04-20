@@ -1,2 +1,0 @@
-metagenomes/meta.fastq 12
-metagenomes/meta_smol.fastq 12
