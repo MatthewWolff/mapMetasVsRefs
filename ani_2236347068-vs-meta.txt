@@ -1,0 +1,2 @@
+filename	ref	meta	hits	ANI	metaReads	percentMapped
+mappingResults/2236347068-vs-meta.pidOnly	2236347068	meta	86	89.5984883721	12	7.16666666667

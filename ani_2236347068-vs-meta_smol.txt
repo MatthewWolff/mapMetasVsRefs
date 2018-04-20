@@ -1,0 +1,2 @@
+filename	ref	meta	hits	ANI	metaReads	percentMapped
+mappingResults/2236347068-vs-meta_smol.pidOnly	2236347068	meta_smol	0	NA	12	0

@@ -32,7 +32,7 @@ if __name__ == "__main__":
     metaReadsFile = open("metaReads.txt", "r")
     metaReads = int()
     fdname = False
-    outname = "ani_{}vs{}.txt".format(ref, meta)
+    outname = "ani_{}-vs-{}.txt".format(ref, meta)
     for line in metaReadsFile:
         if meta in line:
             metaReads = int(line.split(" ")[1].rstrip())

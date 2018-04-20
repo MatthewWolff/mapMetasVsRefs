@@ -3,7 +3,7 @@
 #Usage: ./runAll.sh threads(default=10) memlimit(default=4g) minID(default=.8)
 # Some testing with commands from testing with nohup
 # nohup bash runAll.sh 20 4g > $(echo $(date +%Y%m%d_%H%M%S))_nohup.log 2> $(echo $(date +%Y%m%d_%H%M%S))_nohup.err &
-bbpath=/bbmap/bbmap.sh
+bbpath=../bbmap/bbmap.sh
 
 # Make list of all files ending in .f*a in refGenomes directory
 if [ ! -e refGenomeList.txt ]
@@ -80,7 +80,7 @@ do
         fi
 done
 
-for filename in mappingResults/*sorted.bam
+for filename in mappingResults/*.sorted
 do
 	outname="${filename%.*}".depth
 	if [ ! -e $outname ]
