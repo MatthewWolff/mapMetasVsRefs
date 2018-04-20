@@ -1,2 +1,0 @@
-filename	ref	meta	hits	ANI	metaReads	percentMapped
-mappingResults/ref-vs-ref.pidOnly	ref	ref	18815	99.998494818	18815	1.0

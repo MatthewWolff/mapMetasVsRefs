@@ -1,2 +1,0 @@
-filename	ref	meta	hits	ANI	metaReads	percentMapped
-mappingResults/ref-vs-meta_smol.pidOnly	ref	meta_smol	0	NA	12	0
