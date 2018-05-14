@@ -3,6 +3,12 @@ Sarah Stevens
 2016-03-10  
 
 This pipeline calculates the coverage and ANI for each metagenome included to each reference genome  
+___________________________________________________________________________
+**Matthew edit**: *`make` will execute runAll.sh, `make clean` will remove all files, including the contents of the `mappingResults/` directory. In order to run with custom parameters, `./scripts/runAll.sh <parameters>` will have to be called, as `make` will not take arguments. Optionally, this can be corrected with no further action than moving `runAll.sh` to the main directory and removing the make command from the `makefile`, i.e.* 
+```
+mv scripts/runAll.sh . && tail makefile -n 2 > makefile
+``` 
+___________________________________________________________________________
 
 ### Directory Structure:
 | - metagenomes/ : directory to place (or link) all the metagenomes to include in analysis  
