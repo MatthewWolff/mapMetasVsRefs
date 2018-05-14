@@ -1,14 +1,7 @@
 metagenomes/
 refGenomes/
 mappingResults/
-mappingCombos.txt
-metagenomeList.txt
-refGenomeList.txt
-resultingPIDs.txt
 *nohup*
-parsedPID.txt
 *test*
-coverage.txt
-ani.txt
-refGenomes.len
-metaReads.txt
+*.txt
+*.len
